@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.config.js",
-		"build": "cross-env NODE_ENV=production webpack --config config/webpack.config.js"
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.config.js"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +19,8 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
   }
 }

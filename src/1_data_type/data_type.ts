@@ -88,6 +88,6 @@ function getLength(data:string | number){
 	}
 }
 
-//类型推断(推倒)
-let a:object = {}
-a = []
+//类型推断(推导)
+let a = [1,2,3]
+a = [4,5,6,7]

@@ -46,7 +46,7 @@ class Car implements ICar {
 		return true
 	}
 	lightOff(){
-		console.log('灯打关了');
+		console.log('灯关闭了');
 		return false
 	}
 }

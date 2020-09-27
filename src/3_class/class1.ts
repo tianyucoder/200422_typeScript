@@ -1,11 +1,11 @@
-//类的基本使用
+
 class Person {
 	//属性声明
 	name:string
 	age:number
 
 	//构造器函数
-	constructor(name:string,age:number){
+	constructor(  name:string,age:number){
 		this.name = name
 		this.age = age
 	}

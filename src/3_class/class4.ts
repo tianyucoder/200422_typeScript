@@ -34,13 +34,14 @@
 		}
 		//一般方法
 		stuSpeak():string{
-			 return super.speak() //属性“speak”为私有属性，只能在类“Person”中访问
+			return 'abc'
+			//  return super.speak() //属性“speak”为私有属性，只能在类“Person”中访问
 		}
 	}
 
 	const p1 = new Person('老刘',18)
 	console.log(p1.name);
-	console.log(p1.age); //属性“age”受保护，只能在类“Person”及其子类中访问。
-	console.log(p1.speak());//属性“speak”为私有属性，只能在类“Person”中访问。
+	// console.log(p1.age); //属性“age”受保护，只能在类“Person”及其子类中访问。
+	// console.log(p1.speak());//属性“speak”为私有属性，只能在类“Person”中访问。
 
 })()
